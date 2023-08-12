@@ -49,7 +49,6 @@ static SemaphoreHandle_t sync_stats_task;
  *  - ESP_ERR_INVALID_SIZE  Insufficient array size for uxTaskGetSystemState. Trying increasing ARRAY_SIZE_OFFSET
  *  - ESP_ERR_INVALID_STATE Delay duration too short
  */
-
 static esp_err_t print_real_time_stats(TickType_t xTicksToWait)
 {
     TaskStatus_t *start_array = NULL, *end_array = NULL;
