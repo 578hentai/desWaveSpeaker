@@ -15,5 +15,11 @@
     "idf.pythonBinPathWin": "c:\\ESP-IDF\\python_env\\idf5.0_py3.8_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "c:\\ESP-IDF",
     "C_Cpp.default.compilerPath": "c:\\ESP-IDF\\tools\\xtensa-esp32-elf\\esp-2022r1-11.2.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "files.associations": {
+        "semphr.h": "c",
+        "esp_err.h": "c",
+        "task.h": "c",
+        "freertos.h": "c"
+    }
 }
